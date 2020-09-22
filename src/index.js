@@ -6,11 +6,11 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import $ from "jquery";
 import popper from "popper.js";
 
-import Pricing from "../src/Pages/Pricing"
+import App from "./routes/App";
 
 const rootElement = document.getElementById("root");
 //(ReactDOM.render(¿Qué quiero pintar?, ¿Dónde lo quiero pintar?))
 ReactDOM.render(
- <Pricing />,
+ <App />,
   rootElement
 );

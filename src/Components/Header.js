@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 
 function Header(props) {
   return (
@@ -14,9 +15,9 @@ function Header(props) {
         })}
 
       </nav>
-      <a class="btn btn-outline-primary" href="/">
+      <Link class="btn btn-outline-primary" to="/login">
         {props.buttonName}
-      </a>
+      </Link>
     </div>
   );
 }
